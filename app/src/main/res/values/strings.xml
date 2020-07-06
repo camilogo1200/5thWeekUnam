@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Petagram_Recycler_Week3</string>
+    <string name="pet_picture">pet picture</string>
+    <string name="like_button">Like Button</string>
+    <string name="pet_rating_icon">pet rating icon</string>
+    <string name="petagram">Petagram</string>
+    <string name="title_activity_pet_detail">PetDetailActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="action_bar_menusettings">settings</string>
+    <string name="action_bar_menu_star">stars</string>
+</resources>

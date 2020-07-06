@@ -1,0 +1,18 @@
+
+Y
+java:S1128"=Remove this unused import 'androidx.appcompat.app.ActionBar'.(·¯z8¦¹¡î±.
+N
+java:S1068"1Remove this unused "starImageView" private field.(˜·„ù8£¿“æ±.
+~
+java:S1450"\Remove the "mRecyclerView" field and declare it as a local variable in the relevant methods.(Òéıÿÿÿÿ8àÈ©à®.
+y
+java:S1450"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(î×îúÿÿÿÿ8áıš ®.
+z
+java:S1450"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8ÖŞ¬ğ­.
+m
+java:S13018"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ÛÒ˜è±.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±8£¿“æ±.
+Q
+java:S3740"/Provide the parametrized type for this generic.(î×îúÿÿÿÿ8éÄõï­.
+`
+java:S1128">Remove this unused import 'androidx.appcompat.widget.Toolbar'.(ÔËûİùÿÿÿÿ8Ä÷˜è±.

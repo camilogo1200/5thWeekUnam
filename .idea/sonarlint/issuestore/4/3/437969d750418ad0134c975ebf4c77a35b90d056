@@ -1,0 +1,8 @@
+
+H
+java:S1068
+"-Remove this unused "mTextView" private field.(×ìî‰ùÿÿÿÿ
+]	java:S110"<This class has 9 parents which is greater than 5 authorized.(ËÄÐöùÿÿÿÿ8ÌµËë±.
+s
+java:S1450
+"XRemove the "mTextView" field and declare it as a local variable in the relevant methods.(×ìî‰ùÿÿÿÿ
