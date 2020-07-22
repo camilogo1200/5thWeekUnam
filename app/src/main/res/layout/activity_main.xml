@@ -9,15 +9,14 @@
 
     <include
         android:id="@+id/actionbar"
-        layout="@layout/actionbar"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        layout="@layout/actionbar" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/pets_main_recycler"
+    <fragment
+        android:id="@+id/pager_fragment"
+        android:name="com.co.example.petagram_recycler_week3.PagerFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/actionbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

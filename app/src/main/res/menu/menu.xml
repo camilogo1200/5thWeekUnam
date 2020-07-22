@@ -10,8 +10,13 @@
 
     <!-- Settings, should always be in the overflow -->
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_contact"
         android:icon="@drawable/ic_bone"
-        android:title="@string/action_bar_menusettings"
+        android:title="@string/options_menu_contacto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_bone"
+        android:title="@string/options_menu_acerca_de"
         app:showAsAction="never" />
 </menu>

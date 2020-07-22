@@ -12,4 +12,13 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="action_bar_menusettings">settings</string>
     <string name="action_bar_menu_star">stars</string>
+    <string name="options_menu_acerca_de">Acerca de</string>
+    <string name="options_menu_contacto">Contacto</string>
+    <string name="about_nombre_completo">Nombre Completo</string>
+    <string name="about_correo_electronico">Correo Electrónico</string>
+    <string name="about_mensaje">Mensaje</string>
+    <string name="about_enviar">Enviar Comentario</string>
+    <string name="contact_github_com_camilogo1200">http://github.com/camilogo1200</string>
+    <string name="contact_full_name">Creado por Cristhian C Gómez N</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
