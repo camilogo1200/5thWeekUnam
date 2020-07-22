@@ -12,19 +12,20 @@ import android.view.ViewGroup;
 
 import com.co.example.petagram_recycler_week3.databinding.ActivityAboutBinding;
 
-public class AboutActivity extends Fragment {
+public class AboutActivity extends AppCompatActivity {
 
     ActivityAboutBinding binding;
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        binding = ActivityAboutBinding.inflate(inflater, container, false);
-        return binding.getRoot();
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        binding = ActivityAboutBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
+    public void onDestroy() {
+        super.onDestroy();
         binding = null;
     }
 }
