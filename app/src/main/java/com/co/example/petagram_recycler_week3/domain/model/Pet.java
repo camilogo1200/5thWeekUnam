@@ -11,17 +11,17 @@ import java.util.List;
 import java.util.Random;
 
 public class Pet implements Parcelable {
+    private String uuid;
     private String name;
     private int image;
     private int rating;
 
 
-
-
     public Pet() {
     }
 
-    public Pet(String name, int image, int rating) {
+    public Pet(String uuid, String name, int image, int rating) {
+        this.uuid = uuid;
         this.name = name;
         this.image = image;
         this.rating = rating;
@@ -49,6 +49,14 @@ public class Pet implements Parcelable {
 
     public void setRating(int rating) {
         this.rating = rating;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
     }
 
     protected Pet(Parcel in) {

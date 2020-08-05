@@ -94,7 +94,7 @@ public class PetagramDbHelper extends SQLiteOpenHelper {
             String uuid = cursor.getString(cursor.getColumnIndexOrThrow(PetDB._ID));
             String name = cursor.getString(cursor.getColumnIndexOrThrow(PetDB.COLUMN_NAME_NAME));
             int image = cursor.getInt(cursor.getColumnIndexOrThrow(PetDB.COLUMN_NAME_IMAGE));
-            lPets.add(new Pet(name,image,0));
+            lPets.add(new Pet(uuid,name,image,0));
             Log.d("CURSOR", uuid);
         }
         cursor.close();

@@ -22,6 +22,7 @@ import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.UUID;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -64,7 +65,7 @@ public class ProfileFragment extends Fragment {
         List<Pet> lPets = new ArrayList<>();
         Random rnd = new SecureRandom();
         for (int i = 0; i < 15; i++) {
-            lPets.add(new Pet("", R.drawable.daniel_lincoln_l4huaynizky_unsplash, rnd.nextInt(200)))
+            lPets.add(new Pet(UUID.randomUUID().toString(), "", R.drawable.daniel_lincoln_l4huaynizky_unsplash, rnd.nextInt(200)))
             ;
         }
         return lPets;
