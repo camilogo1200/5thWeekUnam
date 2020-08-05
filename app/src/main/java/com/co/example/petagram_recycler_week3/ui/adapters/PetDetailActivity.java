@@ -1,19 +1,17 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.co.example.petagram_recycler_week3.adapters.PetsAdapter;
-import com.co.example.petagram_recycler_week3.data.Pet;
+import com.co.example.petagram_recycler_week3.R;
+import com.co.example.petagram_recycler_week3.domain.model.Pet;
 import com.co.example.petagram_recycler_week3.databinding.ActivityPetDetailBinding;
-
-import java.util.List;
+import com.co.example.petagram_recycler_week3.repository.PetagramDbHelper;
 
 public class PetDetailActivity extends AppCompatActivity {
 
@@ -36,7 +34,7 @@ public class PetDetailActivity extends AppCompatActivity {
         //recycler
         topPets = binding.petsRatedRecycler;
         topPets.setLayoutManager(new LinearLayoutManager(this));
-        topPets.setAdapter(new PetsAdapter(Pet.getAllPets()));
+        topPets.setAdapter(new PetsAdapter(PetagramDbHelper.getInstance().getAllPets()));
 
         //bar.setDisplayUseLogoEnabled(true);
     }

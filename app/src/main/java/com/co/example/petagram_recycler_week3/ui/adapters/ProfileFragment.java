@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import android.os.Bundle;
 
@@ -12,8 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.co.example.petagram_recycler_week3.adapters.PetsAdapter;
-import com.co.example.petagram_recycler_week3.data.Pet;
+import com.co.example.petagram_recycler_week3.R;
+import com.co.example.petagram_recycler_week3.domain.model.Pet;
 import com.co.example.petagram_recycler_week3.databinding.FragmentProfileBinding;
 
 import org.jetbrains.annotations.NotNull;

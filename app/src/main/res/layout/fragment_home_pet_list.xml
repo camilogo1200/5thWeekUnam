@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePetListFragment">
+    tools:context=".ui.adapters.HomePetListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/pets_main_recycler"

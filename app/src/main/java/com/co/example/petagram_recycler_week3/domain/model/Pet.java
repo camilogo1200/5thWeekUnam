@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3.data;
+package com.co.example.petagram_recycler_week3.domain.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -15,24 +15,8 @@ public class Pet implements Parcelable {
     private int image;
     private int rating;
 
-    private static int[] petImages = {
-            R.drawable.charles_deluvio_k4msj7kc0as_unsplash,
-            R.drawable.charles_fair_yjfcqvivjdg_unsplash,
-            R.drawable.chloe_arquelada_mzf9u0xzsk4_unsplash,
-            R.drawable.daniel_lincoln_l4huaynizky_unsplash,
-            R.drawable.evelyn_cespedes_vkooysczgkm_unsplash
-    };
 
-    public static List<Pet> getAllPets() {
-        List<Pet> lPets = new ArrayList<>();
-        Random rnd = new SecureRandom();
 
-        for (int i = 0; i < Pet.petImages.length; i++) {
-            lPets.add(new Pet("pet " + (i + 1), Pet.petImages[i], rnd.nextInt(200)))
-            ;
-        }
-        return lPets;
-    }
 
     public Pet() {
     }

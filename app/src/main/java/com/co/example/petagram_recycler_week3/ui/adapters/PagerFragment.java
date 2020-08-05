@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import android.os.Bundle;
 
@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.co.example.petagram_recycler_week3.adapters.ViewPagerCollectionAdapter;
+import com.co.example.petagram_recycler_week3.R;
 import com.co.example.petagram_recycler_week3.databinding.FragmentPagerBinding;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;

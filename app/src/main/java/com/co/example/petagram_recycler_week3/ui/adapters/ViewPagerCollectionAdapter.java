@@ -1,11 +1,8 @@
-package com.co.example.petagram_recycler_week3.adapters;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-
-import com.co.example.petagram_recycler_week3.HomePetListFragment;
-import com.co.example.petagram_recycler_week3.ProfileFragment;
 
 public class ViewPagerCollectionAdapter extends FragmentStateAdapter {
 

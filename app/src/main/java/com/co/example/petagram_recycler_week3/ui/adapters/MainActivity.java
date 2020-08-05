@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.co.example.petagram_recycler_week3.R;
 import com.co.example.petagram_recycler_week3.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import android.os.Bundle;
 
@@ -12,11 +12,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.co.example.petagram_recycler_week3.adapters.PetsAdapter;
-import com.co.example.petagram_recycler_week3.data.Pet;
+import com.co.example.petagram_recycler_week3.domain.model.Pet;
 import com.co.example.petagram_recycler_week3.databinding.FragmentHomePetListBinding;
-
-import java.util.List;
+import com.co.example.petagram_recycler_week3.repository.PetagramDbHelper;
 
 /**
  * Use the {@link HomePetListFragment#newInstance} factory method to
@@ -47,7 +45,7 @@ public class HomePetListFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         mRecyclerView = binding.petsMainRecycler;
         mRecyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-        mRecyclerView.setAdapter(new PetsAdapter(Pet.getAllPets()));
+        mRecyclerView.setAdapter(new PetsAdapter(PetagramDbHelper.getInstance().getAllPets()));
     }
 
     @Override

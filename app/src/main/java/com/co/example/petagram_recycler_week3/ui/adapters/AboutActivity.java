@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;

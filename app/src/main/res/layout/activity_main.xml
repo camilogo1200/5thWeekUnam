@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    tools:context=".MainActivity">
+    tools:context=".ui.adapters.MainActivity">
 
     <include
         android:id="@+id/actionbar"
@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/pager_fragment"
-        android:name="com.co.example.petagram_recycler_week3.PagerFragment"
+        android:name="com.co.example.petagram_recycler_week3.ui.adapters.PagerFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

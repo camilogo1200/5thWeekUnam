@@ -1,16 +1,10 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
+import com.co.example.petagram_recycler_week3.utils.SendMail;
 import com.co.example.petagram_recycler_week3.databinding.ActivityContactBinding;
 
 public class ContactActivity extends AppCompatActivity {

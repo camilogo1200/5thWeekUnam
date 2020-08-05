@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3;
+package com.co.example.petagram_recycler_week3.utils;
 
 import android.app.ProgressDialog;
 import android.content.Context;

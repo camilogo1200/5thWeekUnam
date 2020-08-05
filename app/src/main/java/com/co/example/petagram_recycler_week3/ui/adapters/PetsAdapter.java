@@ -1,4 +1,4 @@
-package com.co.example.petagram_recycler_week3.adapters;
+package com.co.example.petagram_recycler_week3.ui.adapters;
 
 
 import android.content.res.Resources;
@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.co.example.petagram_recycler_week3.R;
-import com.co.example.petagram_recycler_week3.data.Pet;
+import com.co.example.petagram_recycler_week3.domain.model.Pet;
 
 import java.util.List;
 
